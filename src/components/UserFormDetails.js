@@ -4,9 +4,7 @@ import '../App.css';
 class UserFormDetails extends Component {
 
     render() {
-        console.log("In child render", this.props.users);
-    
-
+        
             return (
                 <div>
                     <table style = {{width : '80%'}}>
