@@ -28,7 +28,7 @@ class UserFormDetails extends Component {
                                 <th> Last Name </th>
                                 <th> Email Id </th>
                                 <th> Date of Birth </th>
-                                <th> ID </th>
+                               {/* <th> ID </th> */}
                                 <th> Actions </th>
 
                             </tr>
@@ -41,7 +41,7 @@ class UserFormDetails extends Component {
                                         <td> {user.lastName} </td>
                                         <td> {user.email} </td>
                                         <td> {user.dateOfBirth} </td>
-                                        <td> {user.id}</td>
+                                       {/* <td> {user.id}</td> */}
                                         
                                        <td> <button type = "button" onClick = {(event)=> {this.props.updateUserHandler(user)}} >  Edit  </button> 
                                         <button type = "button" value = {user.id} onClick = {this.props.deleteHandler}> Delete </button> </td>
